@@ -1,0 +1,143 @@
+/* ENTIRE BIZ CARD */
+.single-user-biz-card {
+    border-bottom: 1px solid #DDD;
+    padding: 18px 0px 17px 0px;
+    max-width: 525px;
+}
+
+.single-user-biz-card:first-child {
+    padding-top: 0px;
+}
+
+
+/* BIZ INFO SECTION */
+.user-biz-info {
+    display: flex;
+}
+
+.user-biz-prev-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 0px 12px 0px 0px;
+}
+
+.user-biz-link {
+    color: #0073bb;
+}
+
+.user-biz-name {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.user-biz-price-range,
+.user-biz-address,
+.user-biz-city-state-zip {
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.user-biz-city,
+.user-biz-state {
+    margin-right: 4px;
+}
+
+
+/* BIZ RATING & IMGS */
+.user-biz-rating-imgs {
+    margin-bottom: 40px;
+}
+
+.user-biz-rating-rev-count {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px 20px;
+}
+
+.user-biz-rating {
+    margin-right: 6px;
+}
+
+.user-biz-review-count {
+    transform: translateY(-2px);
+    font-weight: 300;
+}
+
+
+/* EDIT & DELETE ICONS */
+.user-biz-edit-delete-icons {
+    display: flex;
+    justify-content: flex-end;
+    /* opacity: 0.8; */
+
+}
+
+.user-biz-add-img-button,
+.user-biz-edit-button,
+.user-biz-delete-button {
+    border: 1.4px solid #DDD;
+    border-radius: 4px;
+    padding: 5px 5px 0px 5px;
+    opacity: 0.8;
+    background-color: #FCFCFC;
+}
+
+.user-biz-add-img-button,
+.user-biz-edit-button {
+    margin-right: 7px;
+}
+
+.user-biz-add-img-button:hover,
+.user-biz-edit-button:hover,
+.user-biz-delete-button:hover {
+    cursor: pointer;
+    box-shadow: 0px 1px 2px 0px #DDD;
+    opacity: 1;
+    background-color: #F1F1F1;
+    /* background-color: linear-gradient(180deg, #707070, #FFF 50%); */
+}
+
+
+/* USER REVIEW IMAGES SECTION */
+.user-biz-imgs {
+    width: 100%;
+    max-height: 120px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-biz-img-container {
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 4px;
+}
+
+.user-biz-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.user-biz-img:last-child {
+    margin-right: 0px;
+}
+
+.user-biz-svg-x {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.user-biz-svg-x:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.user-biz-img-container:hover {
+    opacity: 0.6;
+}

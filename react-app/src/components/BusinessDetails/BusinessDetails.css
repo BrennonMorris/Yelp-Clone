@@ -1,0 +1,503 @@
+.single-business-details-container {
+    position: relative;
+    margin-bottom: 700px;
+}
+
+
+.bottom-gradient {
+    background: linear-gradient(0deg, #000000ec, #0000004d 42.92%, #0000);
+    width: 100%;
+    bottom: 0;
+    z-index: 0;
+    position: absolute;
+    height: 426px;
+}
+
+.single-business-images {
+    display: flex;
+    max-height: 426px;
+    min-height: 426px;
+    overflow: hidden;
+    position: absolute;
+    top: 130px;
+}
+
+.single-business-one-image {
+    width: 100%;
+    min-height: 100%;
+    height: fit-content;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+
+.single-business-images {
+    width: 100%;
+}
+.single-business-one-image-wrapper {
+    width: 100%;
+}
+
+#modal {
+    z-index: 99
+}
+
+#photo-modal {
+    background-color: pink;
+}
+
+
+.single-business-header-info {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-weight: 500;
+    color: white;
+    margin: auto;
+    z-index: 1;
+    padding: 40px 64px;
+    max-width: 1772px;
+    min-width: 1144px;
+}
+
+.single-business-details {
+    position: relative;
+    z-index: 2;
+    flex: 1 auto;
+}
+
+.single-business-name {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.single-business-reviews-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.single-business-reviewsnumber {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-bottom: 5px;
+}
+
+.single-business-claimedtypes {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+}
+
+.single-business-claimedtypes>span {
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+.single-business-open-closed {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 0.3px;
+    padding-top: 10px;
+}
+
+.Open {
+    color: #00C588;
+    padding-right: 6px;
+}
+
+.Closed {
+    color: #FF8B89;
+    padding-right: 6px;
+}
+
+.Closedclosed-red {
+    color: rgba(224, 7, 7, 1);
+}
+
+.Openclosed-red {
+    color: #00C588;
+    padding-right: 6px;
+}
+
+.single-business-see-more-photos {
+    border: 1px solid rgba(200, 201, 202, 1);
+    height: 48px;
+    padding: 12px 32px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.single-business-review-details-body {
+    position: relative;
+    top: 580px;
+    display: grid;
+    /* width: 90%; */
+    width: 80%;
+    min-width: 1140px;
+    max-width: 1672px;
+    margin: auto;
+    gap: 60px;
+    grid-template-columns: 2fr 1fr;
+    margin: auto;
+}
+
+.single-business-reviews-button {
+    width: 100%;
+}
+
+.single-business-see-more-photos:hover {
+    cursor: pointer;
+    background-color: rgba(254, 254, 254, 0.402);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.single-business-contact-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    position: sticky;
+    top: 150px;
+    padding: 8px;
+}
+
+.single-business-contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.single-business-contact:first-child {
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.single-business-box-divider {
+    height: 1px;
+    background-color: #ebebeb;
+    width: 80%;
+    margin: auto;
+}
+
+#single-biz-stars {
+    margin-bottom: 30px;
+}
+
+.single-business-reviewButton {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.single-business-review-bar {
+    display: flex;
+}
+
+.single-business-review-bar-button {
+    background-color: rgba(224, 7, 7, 1);
+    /* background-color: #dfa7a6; */
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    width: fit-content;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.single-business-review-bar-button:hover {
+    background-color: rgb(255, 47, 47);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.single-business-user-bar-button {
+    margin-left: 8px;
+    padding: 6px 16px;
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 4px;
+    color:rgba(45, 46, 47, 1);
+    vertical-align: middle;
+}
+
+.single-business-user-bar-button img {
+    margin-right: 4px;
+}
+
+.single-business-user-bar-button:hover {
+    text-decoration: none;
+    background-color: rgb(225, 225, 225);
+    cursor: pointer;
+}
+
+.sb-user-buttons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.single-business-location-hours {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.single-business-title {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px 0px;
+    border-top: 1px solid rgb(235, 235, 235);
+}
+
+.single-business-location-details>p {
+    font-weight: 600;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.single-business-location-details {
+    margin-top: 20px;
+}
+
+.single-business-hours {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(45, 46, 47, 1);
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: start;
+    padding: 3px 0px;
+}
+
+.single-business-hours>span>span {
+    margin-left: 16px;
+}
+
+.single-business-hours-wrapper {
+    margin-top: 10px;
+}
+
+
+.single-business-overall-rating {
+    font-size: 14px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.single-business-overall-num-rating {
+    font-size: 16px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: rgb(110, 112, 114);
+    margin-top: -5px;
+}
+
+
+.single-business-user {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    align-items: center;
+}
+
+.single-business-user>div>img {
+    border-radius: 50%;
+}
+
+.single-business-user-details {
+    margin-bottom: 5px;
+}
+
+.single-business-june-cohort {
+    color: rgba(45, 46, 47, 1);
+    font-size: 14px;
+}
+
+.single-business-user-details>div {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.single-business-user-name {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.single-business-review-subheader {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.single-business-star-subheader {
+    margin-top: 14px;
+}
+
+.single-business-review-subheader>div {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: rgba(110, 112, 114, 1);
+    font-size: 14px;
+}
+
+.single-business-review-body {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.single-business-modal-review-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 4px;
+    object-fit: cover;
+
+}
+
+.single-business-review-image {
+    height: 225px;
+    width: 300px;
+    border-radius: 4px;
+    object-fit: cover;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+.single-business-review-image:last-child {
+    margin-right: 0px;
+}
+
+.single-business-start-your-review {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #0000001a;
+    align-items: center;
+    padding: 24px;
+    margin-bottom: 40px;
+}
+
+.single-business-review-link>NavLink {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.start-review {
+    margin-left: 10px;
+}
+
+.single-business-single-reviews {
+    margin-top: 40px;
+}
+
+.single-business-modal-title {
+    font-weight: 700;
+    font-size: 28px;
+    color: rgba(45, 46, 47, 1);
+    margin: 20px 0px;
+}
+
+.single-business-modal-images {
+    width: 100%;
+    height: 450px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.photo-modal-close {
+    display: flex;
+    justify-content: end;
+}
+
+.photo-modal-close:hover {
+    cursor: pointer;
+}
+
+.single-businss-user-review-edit-delete-icons {
+    display: flex;
+    justify-content: start;
+    margin-top: -20px;
+}
+
+.overall-rating-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-left-side-container {
+    width: 168px;
+}
+
+.single-biz-review-dist {
+    width: 70%;
+}
+
+.star-section {
+    display: flex;
+    align-items: center;
+}
+
+.star-title-section {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 20px;
+    text-align: right;
+    width: 50px;
+}
+
+.stars-distribution {
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background: rgb(240, 240, 240);
+    margin-left: 20px;
+}
+
+.five-stars-distribution {
+    height: 10px;
+    border-radius: 5px;
+    background: rgba(251,67,60,1);
+}
+
+.four-stars-distribution {
+    height: 10px;
+    border-radius: 5px;
+    background: rgba(255, 100, 61, 1);
+}
+
+.three-stars-distribution {
+    height: 10px;
+    border-radius: 5px;
+    background: rgba(255, 135, 66, 1);
+}
+
+.two-stars-distribution {
+    height: 10px;
+    border-radius: 5px;
+    background: rgba(255, 173, 72, 1);
+}
+
+.one-star-distribution {
+    height: 10px;
+    border-radius: 5px;
+    background: rgba(255, 204, 75, 1);
+}
