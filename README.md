@@ -7,17 +7,15 @@ User Reviews and Recommendations of Best Restaurants, Shopping, Nightlife, Food,
 
 # 🖱 Wiki Links
 
-[API Documentation]()
+[API Documentation](https://github.com/BrennonMorris/Yelp-Clone/wiki/API-Documentation)
 
-[Database Schema]()
+[Database Schema](https://github.com/BrennonMorris/Yelp-Clone/wiki/Database-Schema)
 
-[Feature List]()
+[Feature List](https://github.com/BrennonMorris/Yelp-Clone/wiki/Feature-List)
 
-[Redux Store Shape]()
+[Redux Store Shape](https://github.com/BrennonMorris/Yelp-Clone/wiki/Redux-Store-Shape)
 
-[User Stories]()
-
-[Wireframes]()
+[User Stories](https://github.com/BrennonMorris/Yelp-Clone/wiki/User-Stories)
 
 # 🧑‍💻 Under the Hood
 
