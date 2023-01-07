@@ -4,7 +4,7 @@ import random
 
 profile_pictures = ['https://cdn-icons-png.flaticon.com/512/4681/4681664.png', 'https://cdn-icons-png.flaticon.com/512/4681/4681414.png', 'https://cdn-icons-png.flaticon.com/512/4681/4681611.png', 'https://cdn-icons-png.flaticon.com/512/4681/4681561.png', 'https://cdn-icons-png.flaticon.com/512/4681/4681691.png', 'https://cdn-icons-png.flaticon.com/512/4681/4681769.png', 'https://cdn-icons-png.flaticon.com/512/4681/4681741.png', 'https://cdn-icons-png.flaticon.com/512/4681/4681673.png', 'https://cdn-icons-png.flaticon.com/512/4681/4681538.png', 'https://cdn-icons-png.flaticon.com/512/4681/4681628.png']
 
-# Adds a demo user, you can add other users here if you want
+# Adds a demo user, you can add other users here if you want 
 def seed_users():
     owner1 = User(first_name='Angel',
                    last_name='Cortese',
