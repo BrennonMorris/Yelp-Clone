@@ -5,7 +5,7 @@ import { getAllBiz, clearData } from '../../store/businesses';
 import FuzzySearch from 'fuzzy-search';
 import { search, clearData } from "../../store/businesses";
 import './Biz.css';
-import Search from "./search";
+import Search from "./search"; 
 
 export default function Biz() {
     const biz = useSelector(state => state.businesses.allBusinesses);
