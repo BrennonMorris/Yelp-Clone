@@ -76,7 +76,7 @@ User Reviews and Recommendations of Best Restaurants, Shopping, Nightlife, Food,
 1. Clone this repository
 
    ```bash
-   git clone https://github.com/BrennonMorris/AirBnB-Clone
+   git clone https://github.com/BrennonMorris/Yelp-Clone
    ```
 
 2. Install dependencies
