@@ -3,8 +3,6 @@
 User Reviews and Recommendations of Best Restaurants, Shopping, Nightlife, Food, Entertainment, Things to Do, Services and More at Gulp.
 (Inspired by the popular website, [yelp](https://www.yelp.com/))
 
-**🚀 Live site: [gulp](https://gulp.herokuapp.com/) **
-
 # 🖱 Wiki Links
 
 [API Documentation](https://github.com/BrennonMorris/Yelp-Clone/wiki/API-Documentation)
